@@ -12,11 +12,51 @@
     <title>EcoRide</title>
 </head>
 <body>
-    <header>Le menu de mon site <i class="bi bi-car-front"></i></header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="images/Logo2.png" alt="logo">EcoRide</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item">
+                        <a class="nav-link active" href="/">Accueil</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="/covoiturage">Covoiturage</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Connexion/Déconnexion</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>        
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <main id="main-page"></main>
 
-    <footer>Le pied de page de mon site</footer>
+    <footer class="bg-dark text-white text-center footer">
+        <div class="row">            
+            <div class="col-6 col-lg 4">
+                <img src="/images/Logo.png" alt="logo1" width="75" height="auto">
+            </div>
+
+            <div class="col-6 col-lg-4">                
+                <p class="Text-primary">contact@ecoride.fr <br>
+                Mentions légales</p>                
+            </div>
+        </div>
+    </footer>
 
     <script type="module" src="./frontend/router/router.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
