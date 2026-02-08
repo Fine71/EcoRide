@@ -9,3 +9,7 @@
 
 controllers:
     resource: routing.controllers
+    path: ../src/Controller
+    namespace: App\Controller
+    type: attribute
+    
