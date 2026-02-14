@@ -1,10 +1,9 @@
-import Route from "./route.js";
+import Route from "./Route.js";
 
 // Définition des routes de l'application
 
 export const allRoutes = [
-    new Route("/", "Accueil", "/frontend/pages/home.html"),
-    new Route("/covoiturage", "Covoiturage", "/frontend/pages/covoiturage.html"),
+    new Route("/", "Accueil", "/Pages/Home.html"),
 ];
 
 // affichage du titre comme ceci : Route.title - WebsiteName
