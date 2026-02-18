@@ -1,0 +1,10 @@
+{{ form_start(form) }}
+    {{ form_row(form.lieu_depart) }}
+    {{ form_row(form.lieu_arrivee) }}
+    {{ form_row(form.date_depart) }}
+    {{ form_row(form.rechercher) }}
+{{ form_end(form) }}
+
+{% for covoiturage in covoiturages %}
+    <p>{{ covoiturage.lieuDepart }} → {{ covoiturage.lieuArrivee }}</p>
+{% endfor %}
